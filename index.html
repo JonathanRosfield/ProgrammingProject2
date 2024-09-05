@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Create your Contact List!</h1>
+
+    <section id="contact-form">
+        <h2>Add a New Contact</h2>
+        <form id="contactForm">
+            <label for="contactName">Name:</label>
+            <input type="text" id="contactName" name="contactName" required>
+            
+            <label for="contactPhone">Phone Number:</label>
+            <input type="tel" id="contactPhone" name="contactPhone" required>
+            
+            <button type="submit">Add Contact</button>
+        </form>
+    </section>
+
+    <section id="contact-list">
+        <h2>Contact List</h2>
+        <ul id="contactList"></ul>
+    </section>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
+

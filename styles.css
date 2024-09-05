@@ -1,0 +1,87 @@
+/* Style sheet for Contact List Web Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #314ead;
+    text-align: center;
+}
+
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#contact-form {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#contact-form h2 {
+    margin-top: 0;
+}
+
+#contact-form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #218838;
+}
+
+#contact-list {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#contact-list h2 {
+    margin-top: 0;
+}
+
+#contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contactList li {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactList li span {
+    font-size: 16px;
+}
+
