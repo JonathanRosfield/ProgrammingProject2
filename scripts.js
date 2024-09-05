@@ -19,7 +19,8 @@ contactForm.addEventListener('submit', function(event) {
 
         // Set the content of the list item
         newListItem.textContent = `${contactName}: ${contactPhone}`;
-        
+
+        newListItem.style.fontSize = '18px';         
         
         // Add the new list item to the contact list
         contactList.appendChild(newListItem);
@@ -29,7 +30,5 @@ contactForm.addEventListener('submit', function(event) {
         contactPhoneInput.value = '';
     }
 
-    
-    
-        
+
 });
